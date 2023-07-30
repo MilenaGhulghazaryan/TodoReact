@@ -1,0 +1,67 @@
+ body {
+     background: #DC281E;
+ }
+
+ input {
+     width: 250px;
+     border: none;
+     border-radius: 5px;
+     padding: 10px;
+     font-size: 1rem;
+ }
+
+ .addBtn {
+     background-color: #0000ff;
+     color: #fff;
+     border: none;
+     border-radius: 5px;
+     width: 61px;
+     height: 36px;
+     font-size: 1.2rem;
+     cursor: pointer;
+ }
+
+ .item {
+     width: 350px;
+     background-color: #edf4f9;
+     padding: 5px;
+     margin: auto;
+     border: 1px solid;
+     border-radius: 5px;
+     display: flex;
+     justify-content: space-between;
+     font-size: 1.5vw;
+     margin-top: 1%;
+     height: 31px;
+ }
+
+ .todos {
+     margin-top: 4%;
+ }
+
+ .inpBtn {
+     display: flex;
+     gap: 8px;
+     margin: auto;
+     width: 24%;
+ }
+
+ .title {
+     color: #fff;
+     font-size: 3rem;
+ }
+
+ .deleteBtn {
+     background: red;
+     border-radius: 2px;
+     cursor: pointer;
+     position: absolute;
+     right: 40.4%;
+     height: 31px;
+ }
+
+ .editBtn {
+     background: rgb(212, 255, 0);
+     border-radius: 2px;
+     cursor: pointer;
+ }
